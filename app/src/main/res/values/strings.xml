@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CAR DIGNOSTIC CENTER</string>
+        <!-- ... your other strings ... -->
+    <string name="diagnostic_widget_description">Shows car diagnostic status.</string>
+    <string name="diagnostic_widget_label">Diagnostic Info</string>
+        <string name="widget_description">Shows car diagnostic status.</string>
+
+
+    <!-- <string name="diagnostic_widget_label">Car Diagnostics</string> -->
+
+                <!-- ... other strings ... -->
+                <!-- <string name="diagnostic_widget_label">Car Diagnostics</string> -->
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Main App Theme -->
+    <style name="Theme.CARDIAGNOSTICCENTER" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/my_app_primary</item>
+        <item name="colorPrimaryContainer">@color/my_app_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/my_app_secondary</item>
+        <item name="colorSecondaryContainer">@color/my_app_secondary_variant</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background & surface -->
+        <item name="colorSurface">@color/white</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryContainer</item>
+
+        <!-- Custom button -->
+        <item name="buttonStyle">@style/MyApp.Button</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="MyApp.Button" parent="Widget.Material3.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/my_app_primary</item>
+    </style>
+
+    <!-- Optional fallback theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+
+</resources>
